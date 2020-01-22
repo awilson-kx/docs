@@ -1,5 +1,5 @@
 ---
-title: Interfaces and editor integrations – Interfaces – kdb+ and q documentation
+title: Interfaces and editor integrations | Interfaces | kdb+ and q documentation
 description: Interfaces between kdb+ and other languages and services; also extensions to text editors for writing q code
 keywords: editor, github, integration, interface, kdb+, q, repository
 ---
@@ -33,13 +33,13 @@ The [Fusion interfaces](fusion.md) to kdb+ are
 <tr><td>FFI</td><td>[Using foreign functions with kdb+](ffi.md)</td></tr>
 <tr><td>Java</td><td> [Java client for kdb+](java-client-for-q.md)</td>
 <tr><td>Jupyter</td><td>[Jupyter kernel for kdb+](../ml/jupyterq/index.md) [<i class="fab fa-superpowers"></i>](../ml/index.md "Machine learning") ==new==</td>
-<tr><td>Kafka</td><td>[Q client for Kafka](kafka.md)</td></tr>
+<tr><td>Kafka</td><td>[Q client for Kafka](kafka/index.md)</td></tr>
 <tr><td>Python</td>
     <td>
 </i> [Using kdb+ within Python (PyQ)](pyq/index.md)<br/>
 [Using Python within kdb+ (embedPy)](../ml/embedpy/index.md) [<i class="fab fa-superpowers"></i>](../ml/ "Machine learning")
     </td></tr>
-<tr><td>R</td><td>[Using R with kdb+](with-r.md#calling-q-from-r)</td>
+<tr><td>R</td><td>[Using R with kdb+](r/index.md)</td>
 </tr>
 </table>
 
@@ -48,6 +48,7 @@ The [Fusion interfaces](fusion.md) to kdb+ are
 
 <table class="kx-compact" markdown="1">
 <tr><td>Adobe Flex</td><td><i class="fab fa-github"></i> [quantbin/kdb](https://github.com/quantbin/kdb)</td></tr>
+<tr><td>Apache Spark</td><td><i class="fab fa-github"></i> [hughhyndman/kdbspark](https://github.com/hughhyndman/kdbspark) ==new==</td></tr>
 <tr>
     <td>ADO.Net</td>
     <td>
@@ -56,7 +57,7 @@ The [Fusion interfaces](fusion.md) to kdb+ are
     </td>
 </tr>
 <tr><td>amCharts</td><td><i class="fab fa-github"></i> [kxcontrib/cburke/amcharts](https://github.com/kxcontrib/cburke/tree/master/amcharts/)</td></tr>
-<tr><td>AQuery</td><td><i class="fab fa-github"></i> [josepablocam/aquery](https://github.com/josepablocam/aquery) ==new==</td></tr>
+<tr><td>AQuery</td><td><i class="fab fa-github"></i> [josepablocam/aquery](https://github.com/josepablocam/aquery)</td></tr>
 <tr><td>C</td><td>[C client for kdb+](c-client-for-q.md)</td></tr>
 <tr><td>CZMQ</td><td><i class="fab fa-github"></i> [jaeheum/qzmq](https://github.com/jaeheum/qzmq)</i></td></tr>
 <tr><td>C#</td><td>[C# client for kdb+](csharp-client-for-q.md)<br/>
@@ -146,6 +147,7 @@ The [Fusion interfaces](fusion.md) to kdb+ are
     </td>
 </tr>
 <tr><td>PLplot</td><td><i class="fab fa-github"></i> [jaeheum/qplplot](https://github.com/jaeheum/qplplot)</td></tr>
+<tr><td>Postgres</td><td><i class="fab fa-github"></i> [hughhyndman/pgtokdb](https://github.com/hughhyndman/pgtokdb)</td></tr>
 <tr><td><i class="fab fa-python"></i> Python</td>
     <td>
 <i class="fab fa-github"></i> [brogar/pykdb](https://github.com/brogar/pykdb)<br/>
@@ -202,7 +204,7 @@ The [Fusion interfaces](fusion.md) to kdb+ are
 <tr><td>ODBC</td><td>[Q client for ODBC](q-client-for-odbc.md)<br/>
 <i class="fab fa-github"></i> [johnanthonyludlow/kdb/docs/odbc.pdf](https://github.com/johnanthonyludlow/kdb/blob/master/docs/odbc.pdf)</td></tr>
 <tr><td>Philips Hue</td><td><i class="fab fa-github"></i> [jparmstrong/qphue](https://github.com/jparmstrong/qphue)</td></tr>
-<tr><td><i class="fab fa-r-project"></i> R</td><td>[Using R with kdb+](with-r.md#calling-r-from-q)</td></tr>
+<tr><td><i class="fab fa-r-project"></i> R</td><td>[Using R with kdb+](r/r-and-q.md)</td></tr>
 <tr><td>Reuters</td><td><i class="fab fa-github"></i> [KxSystems/kdb/c/feed/rfa.zip](https://github.com/KxSystems/kdb/blob/master/c/feed/rfa.zip)</td></tr>
 <tr><td>TSE FLEX</td><td><i class="fab fa-github"></i> [Naoki-Yatsu/TSE-FLEX-Converter](https://github.com/Naoki-Yatsu/TSE-FLEX-Converter)</td></tr>
 <tr>
